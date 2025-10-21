@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.navbar {
+    background-color: red;
+    width: 98vw;
+    height: 5vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    border-radius: 5vb;
+    display:inline-flex;
+    flex-direction: row-reverse;
+}
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+.NavBarComp {
+    font-family: "Space Mono";
+    color: black;
+    font-feature-settings: "pstf";
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
