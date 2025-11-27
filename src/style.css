@@ -3,13 +3,26 @@
     src: url(/assets/fonts/static-sans-text/StackSansText-Regular.ttf);
 }
 
+@import url("/assets/fonts/motiva-sans/MotivaSansRegular.woff.ttf");
+
+:root {
+    --even-darker-bg-color: #1b1c26  ;
+    --bg-color: #2B2D42;
+    --lighter-bg-color: #8D99AE;
+    --text-color: #EDF2F4;
+    --highlight-color: #EF233C;
+    --deep-highlight-color: #D90429;
+}
+
 * {
-    font-family:Stack Sans Text;
+    font-family: 'Stack Sans Text', sans-serif;
 }
 .topnav {
-    background-color: #333;
+    background-color: var(--bg-color);
     overflow: hidden;
     position: sticky;
+    margin-top: 3vh;
+    border-radius: 1vb;
 }
 
 .topnav a {
@@ -20,14 +33,31 @@
     text-decoration: none;
     font-size: 17px;
     transition: all .2s;
+    
 }
 
 .topnav a:hover {
-    background-color: #ff2a6a;
+    background-color: var(--highlight-color);
     color: #ddd;
 }
 
 .topnav a:active {
-    background-color: #ddd;
+    background-color: var(--deep-highlight-color);
 }
 
+.content {
+    background-color: var(--bg-color);
+    height: 85vh;
+    border-radius: 1vb;
+}
+
+body, header {
+    width: 95vw;
+    margin: auto;
+    /* filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.65)); */
+}
+
+html {
+    background-color: var(--even-darker-bg-color);
+    color: var(--text-color);
+}
