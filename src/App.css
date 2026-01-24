@@ -5,12 +5,13 @@
     padding: 0;
     font-family: 'Google Sans Code';
     transition: all 0.2s;
+    overscroll-behavior: none;
 }
 
 .navbar {
     width: 100%;
     height: 10vh;
-    background-color: #212121;
+    background-color: #131313;
     place-content: center;
     margin-bottom: 0;
 }
@@ -46,7 +47,7 @@
 }
 
 .content {
-    background-color: #f5f5ec;
+    background-color: #212121;
     width: 100%;
     height: 90vh;
 }
@@ -54,6 +55,7 @@
 .content>*{
     margin-left: 2vw;
     font-weight: 500;
+    color: white;
 }
 
 .content>*:not(:first-child)
@@ -70,9 +72,9 @@
 }
 
 .gallery {
-    background-color: #212121;
+    background-color: #323232;
     width: 35vw;
-    height: 75vh;
+    height: 80vh;
     margin-left: 60vw; 
     margin-top: -85vh;
     position: absolute;
@@ -86,13 +88,22 @@
     font-weight: 400;
 }
 
+.card>h1>a:visited, .card>h1>a:hover, .card>h1>a:focus {
+    text-decoration: dotted;
+    color: white;
+}
+
+
 .card {
     border: 1px solid white;
     margin: 1vw;
     padding: 1vw;
     border-radius: 1vb;
+    background: none; 
 }
 
 .card>img {
     width: 31vw;
+    margin-top: 1vh;
+    border-radius: 1vb;
 }

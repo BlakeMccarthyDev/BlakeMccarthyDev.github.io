@@ -2,6 +2,9 @@ import './App.css'
 import Home from '../src/pages/Home.jsx'
 import About from './pages/About.jsx'
 import Works from './pages/Works.jsx'
+import WhirlpoolArticle from "./pages/works-folder/whirlpool.jsx"
+import WebsiteArticle from "./pages/works-folder/portfolio-website.jsx"
+import MovementArticle from "./pages/works-folder/movement-system.jsx"
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import NavBar from './components/NavBar.jsx'
 
@@ -15,6 +18,9 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/works' element={<Works />} />
+          <Route path='/works/whirlpool' element={<WhirlpoolArticle />} />
+          <Route path='/works/website' element={<WebsiteArticle />} />
+          <Route path='/works/movement' element={<MovementArticle />} />
         </Routes>
       </BrowserRouter>
     </>
