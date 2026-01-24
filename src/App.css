@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Google Sans Code';
+    transition: all 0.2s;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: #212121;
+    place-content: center;
+    margin-bottom: 0;
+}
+
+.navbar>*{
+    width: 5vw;
+    height: 5vh;
+    margin-left: 1.5vw;
+    background: none;
+    border: none; 
+    font-weight: 400;
+    font-size: 2.5vb;
+    color:white;
+    display: inline;
+}
+
+.navbar>h2 {
+    margin-left: calc(50vw - ((6.5vw * 3)) - 6vw);
+    font-weight: light;
+    opacity: 50%;
+}
+
+.navbar>button:hover {
+    transform: scale(1.1);
+}
+
+.navbar>.clock {
+    float: right;
+    width: 9vw;
+    margin-left: 0px;
+    margin-right: 1.5vw;
+    color:greenyellow;
+}
+
+.content {
+    background-color: #f5f5ec;
+    width: 100%;
+    height: 90vh;
+}
+
+.content>*{
+    margin-left: 2vw;
+    font-weight: 500;
+}
+
+.content>*:not(:first-child)
+{
+    margin-top: 2vh;
+}
+
+.content>*:first-child {
+    padding-top: 3vw;
+}
+
+.content>h1, h2, h3 {
+    max-width: 45vw;
+}
+
+.gallery {
+    background-color: #212121;
+    width: 35vw;
+    height: 75vh;
+    margin-left: 60vw; 
+    margin-top: -85vh;
+    position: absolute;
+    border-radius: 1vb;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.card>* {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.card {
+    border: 1px solid white;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 1vb;
+}
+
+.card>img {
+    width: 31vw;
+}
