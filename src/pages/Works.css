@@ -1,0 +1,18 @@
+.works {
+    justify-items: center;
+}
+
+.works>h1 {
+    margin-top: 3vh;
+}
+
+.works>h3 {
+    margin-top: 2vh;
+    max-width: 90vw;
+    text-align: center;
+}
+
+
+.works-cards>* {
+    width: 33vw;
+}

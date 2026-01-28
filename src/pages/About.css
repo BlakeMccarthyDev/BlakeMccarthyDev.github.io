@@ -27,7 +27,7 @@
 
 .info-cont>*{
     margin-left: 5vw;
-    margin-top: 8vh;
+    margin-top: 4vh;
     text-align: center;
 }
 
@@ -37,15 +37,19 @@
 }
 
 .games>img {
-    width: 15vw;
+    max-width: 15vw;
     max-height: 25vh;
     margin-bottom: 3vh;
+    display: flex;
+    justify-self: center;
 }
 
 .engines>img {
     margin-bottom: 3vh;
-    width: 15vw;
+    max-width: 15vw;
     max-height: 20vh;
+    display: flex;
+    justify-self: center;
 }
 
 .engines>img:not(:last-child) {
@@ -53,8 +57,10 @@
 }
 
 .langs>img {
-    width: 15vw;
+    max-width: 15vw;
     max-height: 25vh;
     margin-bottom: 3vh;
+    display: flex;
+    justify-self: center;
 }
 
