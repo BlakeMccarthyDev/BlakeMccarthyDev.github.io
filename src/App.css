@@ -7,6 +7,7 @@
     font-family: 'Google Sans Code';
     transition: all 0.2s;
     overscroll-behavior: none;
+    overflow:hidden;
 }
 
 .navbar {
@@ -73,14 +74,15 @@
     padding-top: 5vh;
 }
 
-.content>*:first-child {
+.home>*:first-child {
     padding-top: 3vw;
 }
 
 .gitwidgets {
     display: inline-block;
-    width: 50vw;
-
+    width: 45vw;
+    position: fixed;
+    bottom: 0;
 }
 
 .gitwidgets>*:not(:last-child){
@@ -98,11 +100,11 @@
     display: block;
 }
 
-.home>h1 {
+.content>h1 {
     font-size: 60px;
 }
 
-.home>h2, .home>h3 {
+.content>h2, .content>h3 {
     font-weight: lighter;
 }
 
@@ -113,9 +115,9 @@
 .gallery {
     background-color: #323232;
     width: 35vw;
-    height: 80vh;
-    margin-left: 60vw; 
-    margin-top: -85vh;
+    height: 85vh;
+    margin-left: 60vw;
+    top:10vh;
     position: absolute;
     border-radius: 1vb;
     overflow: scroll;

@@ -1,0 +1,60 @@
+.about {
+    justify-items: center;
+}
+
+.about>h1 {
+    margin-top: 3vh;
+}
+
+.about>h3 {
+    margin-top: 2vh;
+    max-width: 90vw;
+    text-align: center;
+}
+
+.about-info {
+    width: 25vw;
+    height: 55vh;
+    border: 1px solid white;
+    border-radius: 1vb;
+    overflow:scroll;
+    scrollbar-width: none;
+}
+
+.info-cont {
+    display: inline-flex;
+}
+
+.info-cont>*{
+    margin-left: 5vw;
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.about-info>h2 {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.games>img {
+    width: 15vw;
+    max-height: 25vh;
+    margin-bottom: 3vh;
+}
+
+.engines>img {
+    margin-bottom: 3vh;
+    width: 15vw;
+    max-height: 20vh;
+}
+
+.engines>img:not(:last-child) {
+    filter: invert();
+}
+
+.langs>img {
+    width: 15vw;
+    max-height: 25vh;
+    margin-bottom: 3vh;
+}
+

@@ -22,8 +22,8 @@ function Gallery()
         <>
             <div className="gallery">
                 <Card title={"Work 1"} desc={"The first Work"} imgpath={"../src/assets/work1.png"} articlepath={"/works/whirlpool"}/>
-                <Card title={"Work 2"} desc={"The second Work"} imgpath={"../src/assets/work1.png"}/>
-                <Card title={"Work 3"} desc={"The third Work"} imgpath={"../src/assets/work1.png"}/>
+                <Card title={"Work 2"} desc={"The second Work"} imgpath={"../src/assets/work1.png"} articlepath={"/works/website"}/>
+                <Card title={"Work 3"} desc={"The third Work"} imgpath={"../src/assets/work1.png"} articlepath={"/works/movement"}/>
             </div>
         </>
     )
