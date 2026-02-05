@@ -3,7 +3,7 @@ import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
 import Works from './Pages/Works.jsx'
 import WhirlpoolArticle from "./Pages/works-folder/whirlpool.jsx"
-import RPSArticle from "./pages/works-folder/rockpaperscissors.jsx"
+import RPSArticle from "./Pages/works-folder/rockpaperscissors.jsx"
 import MovementArticle from "./Pages/works-folder/movement-system.jsx"
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import NavBar from './Components/NavBar.jsx'
