@@ -37,12 +37,12 @@
 }
 
 .text-cont>button {
-    margin-top: 7.5vh;
     padding: .5vw;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
     border: 1px solid white ;
     border-radius: 1vb;
+    margin-top: 11.5vh;
 }
 
 .text-cont>button:hover {
