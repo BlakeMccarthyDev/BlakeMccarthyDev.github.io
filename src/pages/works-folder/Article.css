@@ -1,0 +1,36 @@
+.article {
+    scroll-behavior: smooth;
+    width: 52vw;
+    height: max-content;
+    background-color: #212121;
+    place-self: center;
+    padding-top: 7vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 5vh;
+    filter: drop-shadow(0px 0px 10px rgba(15, 15, 15, .15));
+}
+
+.content {
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.article>h1 {
+    place-self: center;
+}
+
+.article>p {
+    font-weight: 300;
+    margin-top: 5vh;
+}
+
+.article>p>b {
+    font-weight: 600;
+}
+
+.article>img {
+    max-width: 30vw;
+    margin-left: 11vw;
+    margin-top: 2vh;
+}
