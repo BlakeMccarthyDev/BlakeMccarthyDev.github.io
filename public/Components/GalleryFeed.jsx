@@ -7,9 +7,9 @@ function Gallery()
     return(
         <>
             <div className="gallery">
-                <Card title={"Work 1"} desc={"The first Work"} imgpath={"../assets/work2.png"} articlepath={"/works/whirlpool"}/>
+                <Card title={"Work 1"} desc={"The first Work"} imgpath={"Assets/WhirlpoolRender.gif"} articlepath={"/works/whirlpool"}/>
                 <Card title={"Work 2"} desc={"The second Work"} imgpath={"Assets/work2.png"} articlepath={"/works/rpsgame"}/>
-                <Card title={"Work 3"} desc={"The third Work"} imgpath={"../public/Assets/work3.png"} articlepath={"/works/movement"}/>
+                <Card title={"Work 3"} desc={"The third Work"} imgpath={"Assets/work3.png"} articlepath={"/works/movement"}/>
             </div>
         </>
     )
