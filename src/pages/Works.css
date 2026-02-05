@@ -16,3 +16,46 @@
 .works-cards>* {
     width: 33vw;
 }
+
+.article-card {
+    width: 90vw;
+    height: 20vh;
+    background-color: #181818;
+    margin-top: 2vh;
+    padding: 1vh;
+    border-radius: 2vb;
+}
+
+.article-card>* {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text-cont {
+    margin-left: 1vw;
+    width: max-content;
+}
+
+.text-cont>button {
+    margin-top: 7.5vh;
+    padding: .5vw;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid white ;
+    border-radius: 1vb;
+}
+
+.text-cont>button:hover {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.text-cont>h3 {
+    font-size: 100%;
+    font-weight: 350;
+    color: rgba(255, 255, 255, .65);
+}
+
+.article-card>img {
+    height: 100%;
+    border-radius: 1vb;
+}

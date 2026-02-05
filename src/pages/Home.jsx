@@ -15,10 +15,10 @@ export default function Home() {
         </h3>
         <br />
         <div className="gitwidgets">
-          <img
+          {/*<img
             src="https://github-readme-stats.vercel.app/api/top-langs?username=BlakeMcCarthyDev&show_icons=true&locale=en&layout=compact&theme=merko&hide_border=true"
             alt="ovi"
-          />
+          />*/}
           <img
             src="https://github-contributions-api.deno.dev/blakemccarthydev.svg"
             className="graph"
