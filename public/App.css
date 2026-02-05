@@ -56,7 +56,7 @@
 }
 
 .content:hover {
-    background-image: url("../public/assets/bgpatternturned.png");
+    background-image: url("../public/Assets/bgpatternturned.png");
 }
 
 .content>*{

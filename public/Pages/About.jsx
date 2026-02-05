@@ -28,7 +28,7 @@ export default function About() {
               alt=""
             />
             <img
-              src="https://s-stats-platform-cdn.op.gg/app-router/assets/images/marvel-rivals/logo.png?image=q_auto:good,f_webp,w_674&v=1769077867"
+              src="https://s-stats-platform-cdn.op.gg/app-router/Assets/images/marvel-rivals/logo.png?image=q_auto:good,f_webp,w_674&v=1769077867"
               alt=""
             />
             <img

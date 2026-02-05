@@ -48,14 +48,14 @@
 }
 
 .content {
-    background-image: url("./assets/bgcontentpattern.png");
+    background-image: url("./Assets/bgcontentpattern.png");
     background-size: 2%;
     width: 70vw;
     height: 90vh;
 }
 
 .content:hover {
-    background-image: url("./assets/bgpatternturned.png");
+    background-image: url("./Assets/bgpatternturned.png");
 }
 
 .content>*{
