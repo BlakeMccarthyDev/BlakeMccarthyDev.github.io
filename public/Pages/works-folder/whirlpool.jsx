@@ -8,7 +8,7 @@ function WhirlpoolArtice() {
             <div className="content">
                 <div className="article">
                     <h1>Shader Breakdown: Whirlpool</h1>
-                    <img src={process.env.PUBLIC_URL+"Assets/WhirlpoolRender.gif"}/>
+                    <img src={"../Assets/WhirlpoolRender.gif"}/>
                     <p>For this portfolio, I decided to create a select few works to showcase my abilities in a variety of areas. One of these select works is a Whirlpool Shader. I decided upon this specifically as it seemed to be the best way to show my technical art skills while also playing into my strengths of programming and thinking analytically. I was inspired to make this shader by the developer Cyanilux, who can be found <a href="https://www.cyanilux.com/tutorials/whirlpool-shader-breakdown/">here.</a> The shader can be broken down into 3 main sections: Vertex Deformation, Noise Creation, and Coloring.
 
                         <br /><br /><b>Vertex Deformation</b> <br />
