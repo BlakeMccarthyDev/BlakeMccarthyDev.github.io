@@ -8,7 +8,7 @@ function MovementArticle() {
       <div className="content">
         <div className="article">
           <h1>Project Breakdown: Movement System</h1>
-          <img src="../public/Assets/work2.png" alt="" />
+          <img src="Assets/work2.png" alt="" />
           <p>
             For my Portfolio, I decided to create a
             system which would showcase my ability to produce scaleable code

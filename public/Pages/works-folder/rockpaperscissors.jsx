@@ -7,7 +7,7 @@ function RPSArticle() {
             <div className="content">
                 <div className="article">
                     <h1>Project Breakdown: Rock Paper Scissors in Unity</h1>
-                    <img src="../public/assets/work3.png" alt="" />
+                    <img src="Assets/work3.png" alt="" />
                     <p>
                         For my Portfolio, I decided upon creating a Game to show my problem-solving skills and my ability to create an entire project from start to finish. I decided upon making a simple game known by many - Rock, Paper Scissors. I chose this as it was a realistic project to create from scratch fully independently, but had enough gameplay to still function and be a full game. Before beginning this project, I decided to split the tasks into 3 main sections: Asset Creation, Scripting, and UI Implementation. I planned to do these in this order so that once the step is complete, there is no need to revisit the previous work rather than constantly switch between creating new assets, scripting, and then implementing them into the project, which would be too confusing mid-development. I published this game to Itch.io, and it can be played in browser here.
 
