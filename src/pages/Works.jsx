@@ -1,6 +1,6 @@
-import NavBar from "../../src/components/NavBar"
+import NavBar from "../Components/NavBar"
 import './Works.css'
-import ArticleCard from "../components/ArticleCard"
+import ArticleCard from "../Components/ArticleCard"
 
 export default function Works() {
     return (

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../pages/Works.css"
+import "../Pages/Works.css"
 function ArticleCard({ title, description, imgpath, pageurl }) {
     var nav = useNavigate();
     return (

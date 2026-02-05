@@ -1,12 +1,12 @@
 import './App.css'
-import Home from '../src/pages/Home.jsx'
-import About from './pages/About.jsx'
-import Works from './pages/Works.jsx'
-import WhirlpoolArticle from "./pages/works-folder/whirlpool.jsx"
+import Home from './Pages/Home.jsx'
+import About from './Pages/About.jsx'
+import Works from './Pages/Works.jsx'
+import WhirlpoolArticle from "./Pages/works-folder/whirlpool.jsx"
 import RPSArticle from "./pages/works-folder/rockpaperscissors.jsx"
-import MovementArticle from "./pages/works-folder/movement-system.jsx"
+import MovementArticle from "./Pages/works-folder/movement-system.jsx"
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import NavBar from './components/NavBar.jsx'
+import NavBar from './Components/NavBar.jsx'
 
 function App() {
 

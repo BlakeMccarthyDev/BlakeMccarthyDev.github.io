@@ -1,6 +1,6 @@
-import NavBar from "../../src/components/NavBar";
+import NavBar from "../Components/NavBar";
 import "../App.css";
-import Gallery from "../components/GalleryFeed";
+import Gallery from "../Components/GalleryFeed";
 
 export default function Home() {
   return (
