@@ -6,7 +6,7 @@
     padding: 0;
     font-family: 'Google Sans Code';
     transition: all 0.2s;
-    overscroll-behavior: none;
+    /* overscroll-behavior: none; */
     overflow:hidden;
 }
 
