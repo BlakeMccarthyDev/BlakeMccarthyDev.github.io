@@ -46,7 +46,8 @@
 }
 
 .text-cont>button:hover {
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(200, 200, 200, 0.45);
+    color:#0d0d0d;
 }
 
 .text-cont>h3 {
