@@ -1,4 +1,4 @@
-import NavBar from "../../src/components/NavBar"
+import NavBar from "../components/NavBar"
 import './Works.css'
 import ArticleCard from "../components/ArticleCard"
 

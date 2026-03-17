@@ -1,5 +1,5 @@
 import './App.css'
-import Home from '../src/pages/Home.jsx'
+import Home from './pages/Home.js'
 import About from './pages/About.jsx'
 import Works from './pages/Works.jsx'
 import WhirlpoolArticle from "./pages/works-folder/whirlpool.jsx"
