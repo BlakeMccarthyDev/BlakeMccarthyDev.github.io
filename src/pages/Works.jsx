@@ -12,7 +12,7 @@ export default function Works() {
                 <div className="works-cards">
                     <ArticleCard title={"Whirlpool Shader"} description={"A Whirlpool shader made using Unity's Built-in Shader Graph and Universal Render Pipeline"} imgpath={"../../public/assets/whirlpoolrender.gif"} pageurl={"/works/whirlpool"}/>
                     <ArticleCard title={"Movement System"} description={"A Point and Click style movement system made in C# utilising Unity's Built-in Navigation System"} imgpath={"../../public/assets/work2.png"} pageurl={"/works/movement"}/>
-                    <ArticleCard title={"RPS Game"} description={"A Rock Paper Scissors Game Developed in Unity and Published on Itch.io"} imgpath={"../../public/assets/work3.png"} pageurl={"/works/rpsgame"}/>
+                    <ArticleCard title={"RPS Game"} description={"A Rock Paper Scissors Game Developed in Unity and Published on Itch.io"} imgpath={"/assets/work3.png"} pageurl={"/works/rpsgame"}/>
                 </div>
             </div>
         </>
